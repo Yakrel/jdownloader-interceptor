@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JDownloader Download Interceptor Settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="options-page">
+  <main class="settings-card">
+    <div class="eyebrow">JDownloader Download Interceptor</div>
+    <h1>Settings</h1>
+    <p class="settings-intro">Configure the JDownloader server that should receive intercepted downloads.</p>
+
+    <label class="field-label" for="server">JDownloader server URL</label>
+    <input id="server" class="text-input" type="url" inputmode="url" spellcheck="false" autocomplete="off" placeholder="http://192.168.1.102:9666">
+    <p class="field-help">Default: <code>http://192.168.1.102:9666</code>. Use the base URL only; the extension adds <code>/flashgot</code> automatically.</p>
+
+    <div id="error" class="error" hidden></div>
+    <div id="success" class="success" hidden></div>
+
+    <div class="settings-actions">
+      <button id="save" class="primary">Save settings</button>
+      <button id="reset">Reset to default</button>
+    </div>
+
+    <p class="settings-note">When you save a custom HTTP or HTTPS host, the browser will ask you to grant this extension access to that JDownloader host only.</p>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>

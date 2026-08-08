@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Choice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="chooser-page">
+  <main class="card">
+    <div class="eyebrow">JDownloader Download Interceptor</div>
+    <h1>Where should this download go?</h1>
+
+    <div class="file-box">
+      <div id="filename" class="filename">Preparing download…</div>
+      <div id="details" class="details"></div>
+    </div>
+
+    <div id="error" class="error" hidden></div>
+
+    <div class="actions">
+      <button id="jd" class="primary">Send to JDownloader</button>
+      <button id="browser">Download with browser</button>
+      <button id="cancel" class="danger">Cancel</button>
+    </div>
+
+    <div id="status" class="status"></div>
+    <p class="hint">Closing this window continues the original browser download.</p>
+  </main>
+  <script src="chooser.js"></script>
+</body>
+</html>
