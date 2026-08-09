@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "JDownloader Download Interceptor",
   "version": "0.6.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGAFBT98l0709sE3Rq8dRY3eR4XgosKgC54YOAfHHXpio5p19tAvVSa5TdJPheDv4DtoYGFaVI17eZRdmrSFp1NnLZWfTcI8tVjQVASt44Fyt74lURf03eLyBnbtN0TVOzXHQZJaXAftOuB0X0sRy+G78aAIrpcaAVJy3YES+6fOoXSvFTVZUW91H/2fMwcILW4lj/3g3WL/PO4Lfr2bAToOLhsC5E57QZDhZK42QwoaEuVHhBQkH1JY3Kl9x/r0/BSVJLLgn3plj+DHna9yXFTJ9a9WqXRVXSFN+R1E+Fw7c8/YMsYxTVrihbldx6Xb4vp8Hg0hQ+buc0SbwOqpuQIDAQAB",
   "description": "Toggle Chromium download interception and choose between a configurable JDownloader instance and the browser's native downloader.",
   "permissions": [
     "downloads",
