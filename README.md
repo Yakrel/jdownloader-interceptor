@@ -92,7 +92,7 @@ Do **not** expose port `9666` directly to the public internet. Use a trusted LAN
 Clone the repository:
 
 ```bash
-git clone https://github.com/Yakrel/jdownloader-interceptor.git
+git clone https://github.com/Yakrel/jdownloader-download-interceptor.git
 ```
 
 Then open your browser's extension management page, enable **Developer mode**, choose **Load unpacked**, and select the repository directory.
